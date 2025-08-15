@@ -129,24 +129,9 @@ mongo-viewer-app/
 - **docker-compose.yml:** Defines two services:
   - ```app:``` the backend server
   - ```mongo:``` MongoDB instance with environment vars set via ```.env```
+The containers run on the same network, enabling seamless connectivity.
 
 ---
-
-## Contributing
-
-Contributions are welcome! Please:
-
-1. Fork the repo
-2. Create a feature branch (```git checkout -b feature/foo```)
-3. Commit your changes (```git commit -m 'Add feature'```)
-4. Push and open a Pull Request
-
----
-
-## Contact
-
-For questions or feedback, reach out to Ahmed at
-
 
 
 1. **LinkDin**: https://eg.linkedin.com/in/ahmed-atef-elnadi-8165a51b9
