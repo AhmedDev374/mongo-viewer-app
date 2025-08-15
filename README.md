@@ -1,5 +1,5 @@
-![mongo-viewer-app](mongo-express.png)
-![mongo-viewer-app](my-app.png)
+![mongo-viewer-app Architecture](mongo-express.png)
+![mongo-viewer-app Architecture](my-app.png)
 
 # Mongo Viewer App
 
