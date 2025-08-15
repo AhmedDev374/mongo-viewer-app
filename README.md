@@ -14,8 +14,6 @@
 - [Environment Variables](#environment-variables)  
 - [Project Structure](#project-structure)  
 - [Docker Configuration](#docker-configuration)  
-- [Contributing](#contributing)  
-- [License](#license)  
 - [Contact](#contact)  
 
 ---
@@ -133,8 +131,9 @@ The containers run on the same network, enabling seamless connectivity.
 
 ---
 
+## Contact
+
+For questions or feedback, reach out to Ahmed at
 
 1. **LinkDin**: https://eg.linkedin.com/in/ahmed-atef-elnadi-8165a51b9
-
----
 
