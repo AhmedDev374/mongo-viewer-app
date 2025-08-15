@@ -33,12 +33,20 @@ Ideal for learning, demonstration, or as a starting point for larger projects.
 ## Architecture
 
 ```plaintext
-┌──────────┐        ┌──────────┐        ┌────────────┐
-│          │        │          │        │            │
-│ Docker   │────────► Backend │────────►  MongoDB   │
-│ Compose  │ HTTP/Env └────────┘   Containerized DB │
-│ Orchestration       │          │        │            │
-└──────────┘        └──────────┘        └────────────┘
+┌────────────────────┐     HTTP Requests     ┌────────────────────┐     MongoDB Driver     ┌────────────────────┐
+│    Frontend*        │ ───────────────────► │      Backend        │ ───────────────────► │     Database        │
+│ (Served by my-app)  │                      │ my-app (Node.js +   │                      │ mongodb container   │
+│ or API client       │ ◄─────────────────── │ Express, server.js) │ ◄─────────────────── │ (Stores app data)   │
+└────────────────────┘     HTTP Responses    └────────────────────┘     Query Results     └────────────────────┘
+                                                                                                   │
+                                                                                                   │
+                                                                                     ┌────────────────────┐
+                                                                                     │   Admin Interface   │
+                                                                                     │ mongo-express (GUI) │
+                                                                                     └────────────────────┘
+
+* If no dedicated UI exists, the backend also acts as the frontend.
+
 ```
 
 ---
