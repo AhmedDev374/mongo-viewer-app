@@ -1,18 +1,9 @@
-1. **First:** Login to DB
-![admin_login.PNG](images/admin_login.PNG)
+1. **First:** Create a database "my-db", then a collection "my-collection", and store  this data in a document
+![mongo-express.PNG](mongo-express.PNG)
 
-1. **Second:** Go to DB and Create A Table (users)
-![db.PNG](images/db.PNG)
+1. **Second:** It show in App Interface
+![my-app.PNG](my-app.PNG)
 
-3. **Third:** Add Field to the User Table
-![db_users.PNG](images/db_users.PNG)
-
-3. **Forth:** Add Data to the User
-![db_users_data.PNG](images/db_users_data.PNG)
-
-5. **last:** Data will show on frontEnd & BackEnd
-![back_end.PNG](images/back_end.PNG)
-![fontend.PNG](images/fontend.PNG)
 
 ---
 
