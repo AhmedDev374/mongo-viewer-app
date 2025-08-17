@@ -24,7 +24,7 @@
 - [Project Structure](#project-structure)  
 - [Docker Configuration](#docker-configuration)  
 - [Contact](#contact)  
-
+- [License](#license)  
 ---
 
 ## Overview
@@ -145,6 +145,13 @@ mongo-viewer-app/
   - ```app:``` the backend server
   - ```mongo:``` MongoDB instance with environment vars set via ```.env```
 The containers run on the same network, enabling seamless connectivity.
+
+---
+
+## License
+
+This project is licensed under the **GNU General Public License v3.0**.  
+See the full license text here: [LICENSE](LICENSE).
 
 ---
 
